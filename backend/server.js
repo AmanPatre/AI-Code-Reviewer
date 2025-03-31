@@ -3,7 +3,7 @@ require("dotenv").config();
 const app = require("./src/app.js");
 
 app.post("/", (req, res) => {
-  res.send("Hello World ");
+  res.send("Hello World hiiii");
 });
 
 app.listen(3000, () => {
